@@ -1,0 +1,13 @@
+{
+    "nimi":"Digitekniikat",
+    "osallistujat": {
+        "lukumäärä":"5",
+        "nimet": ["Hanna", "Sanna", "Jenna", "Minna", "Henna"]
+    },
+    "ajankohta": {
+        "alkamisaika":"19.8.2024",
+        "loppumisaika":"11.10.2024"
+    },
+    "kesto":"8 viikkoa",
+    "kuva":"https://jaakkola.github.io/json/digi.JPG"
+}
