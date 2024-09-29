@@ -1,0 +1,74 @@
+:root {
+    --dark-color: #22162B;
+    --light-color: #FFDDB7;
+    --accent-one: #F8C630;
+    --accent-two: #E54F6D;
+    --main-dark: #451F55;
+    --main-light: #724E91;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+}
+
+#vastaus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style-type: none;
+    padding: 2rem 0 1rem 0;
+}
+
+.navigation-item-link {
+    text-decoration: none;
+    color: var(--main-dark);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.navigation-item-link:hover {
+    text-decoration: underline ;
+    color: var(--main-light);
+}
+
+h1 {
+    font-family: "Kodchasan", sans-serif;
+}
+
+img {
+    border-radius: 4rem 0;
+}
+
+.linkit {
+    padding-bottom: 3rem;
+}
+
+.linkit-linkki {
+    text-decoration: none;
+    color: var(--accent-two);
+}
+
+.linkit-aihe::first-letter {
+    text-transform: capitalize;
+}
+
+.osallistujat {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.aikataulu {
+    font-style: italic;
+}
+
+.description {
+    max-width: 80ch;
+}
