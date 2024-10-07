@@ -1,0 +1,55 @@
+:root {
+    --dark-color: #060709;
+    --light-color: #FFF8F2;
+    --accent-one: #590907;
+    --accent-two: #A24900;
+}
+
+body {
+    font-family: "Afacad Flux", sans-serif;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+}
+
+.title {
+    background-image: url(/img/michael-fousert-lE5-z4nTCTQ-unsplash\ Large\ 1.jpg);
+    background-size: cover;
+    color: var(--light-color);
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+}
+
+.title-text {
+    background-color: var(--dark-color);
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+
+.description {
+    padding-top: 1.5rem;
+}
+
+.footer, .navbar {
+    background-color: var(--dark-color) !important;
+}
+
+.nav-link {
+    color: var(--accent-two);
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: var(--accent-one);
+}
+
+.carousel-inner {
+    border-radius: 3rem;
+}
+
+.weather-info {
+    font-weight: 600;
+}
+
+.weather-desc::first-letter {
+    text-transform: capitalize;
+}
