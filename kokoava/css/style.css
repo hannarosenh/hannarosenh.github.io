@@ -12,7 +12,8 @@ body {
 }
 
 .title {
-    background: url('https: //hannarosenh.github.io/kokoava/img/michael-fousert-lE5-z4nTCTQ-unsplash%20Large%201.jpg');
+    background-image: url('../img/michael-fousert-lE5-z4nTCTQ-unsplash\ Large\ 1.jpg') !important;
+    min-height: 100%;
     background-size: cover;
     color: var(--light-color);
     font-family: "Lilita One", sans-serif;
