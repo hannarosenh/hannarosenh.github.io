@@ -12,7 +12,7 @@ body {
 }
 
 .title {
-    background-image: url(../img/michael-fousert-lE5-z4nTCTQ-unsplash\ Large\ 1.jpg);
+    background-image: url(/img/michael-fousert-lE5-z4nTCTQ-unsplash\ Large\ 1.jpg) !important;
     background-size: cover;
     color: var(--light-color);
     font-family: "Lilita One", sans-serif;
