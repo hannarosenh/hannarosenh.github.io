@@ -1,74 +1,55 @@
 :root {
-    --dark-color: #22162B;
-    --light-color: #FFDDB7;
-    --accent-one: #F8C630;
-    --accent-two: #E54F6D;
-    --main-dark: #451F55;
-    --main-light: #724E91;
+    --dark-color: #060709;
+    --light-color: #FFF8F2;
+    --accent-one: #590907;
+    --accent-two: #A24900;
 }
 
 body {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Afacad Flux", sans-serif;
     color: var(--dark-color);
     background-color: var(--light-color);
 }
 
-#vastaus {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.title {
+    background-image: url(./img/michael-fousert-lE5-z4nTCTQ-unsplash\ Large\ 1.jpg);
+    background-size: cover;
+    color: var(--light-color);
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
 }
 
-.navigation {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    list-style-type: none;
-    padding: 2rem 0 1rem 0;
-}
-
-.navigation-item-link {
-    text-decoration: none;
-    color: var(--main-dark);
-    font-weight: 700;
-    font-size: 1.2rem;
-}
-
-.navigation-item-link:hover {
-    text-decoration: underline ;
-    color: var(--main-light);
-}
-
-h1 {
-    font-family: "Kodchasan", sans-serif;
-}
-
-img {
-    border-radius: 4rem 0;
-}
-
-.linkit {
-    padding-bottom: 3rem;
-}
-
-.linkit-linkki {
-    text-decoration: none;
-    color: var(--accent-two);
-}
-
-.linkit-aihe::first-letter {
-    text-transform: capitalize;
-}
-
-.osallistujat {
-    font-weight: 700;
-    font-size: 1.2rem;
-}
-
-.aikataulu {
-    font-style: italic;
+.title-text {
+    background-color: var(--dark-color);
+    padding: 1rem;
+    border-radius: 1.5rem;
 }
 
 .description {
-    max-width: 80ch;
+    padding-top: 1.5rem;
+}
+
+.footer, .navbar {
+    background-color: var(--dark-color) !important;
+}
+
+.nav-link {
+    color: var(--accent-two);
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: var(--accent-one);
+}
+
+.carousel-inner {
+    border-radius: 3rem;
+}
+
+.weather-info {
+    font-weight: 600;
+}
+
+.weather-desc::first-letter {
+    text-transform: capitalize;
 }
